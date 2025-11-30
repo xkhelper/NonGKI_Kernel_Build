@@ -19,7 +19,6 @@ env:
   BUILD_OTHER_CONFIG: "false" # Merge config files.
   FREE_MORE_SPACE: "false" # if u want get more space, enabled it.
   REKERNEL_ENABLE: "false" # if u need Re:Kernel.
-  LXC_ENABLE: "true"
 
 jobs:
   build:
