@@ -297,8 +297,8 @@ jobs:
           fi
 
           # 添加自定义内核配置
-          echo "CONFIG_ANDROID_BINDER_DEVICES=\"binder,hwbinder,vndbinder,binder1,binder2,binder3,binder4,binder5,binder6,binder7,binder8,binder9,binder10,binder11,binder12,binder13,binder14,binder15,binder16,binder17,binder18,binder19,binder20,binder21,binder22,binder23,binder24,binder25,binder26,binder27,binder28,binder29,binder30,binder31,binder32,binder33,binder34,binder35,binder36,binder37,binder38,binder39,binder40,binder41,binder42,binder43,binder44,binder45,binder46,binder47,binder48,binder49,binder50,binder51,binder52,binder53,binder54,binder55,binder56,binder57,binder58,binder59,binder60,binder61,binder62,binder63,binder64,binder65,binder66,binder67,binder68,binder69,binder70,binder71,binder72\"" >> ./arch/$ARCH/configs/${{ env.DEFCONFIG_NAME }}          
-          
+
+                    
 
       - name: Set Pack Method and KernelSU and SUSFS
         run: |
